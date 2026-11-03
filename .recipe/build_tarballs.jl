@@ -8,11 +8,11 @@
 using BinaryBuilder, Pkg
 
 name = "DyadDAQP"
-version = v"0.10.3"
+version = v"0.11.0"
 
 # Collection of sources required to complete build
 sources = [
-    GitSource("https://github.com/JuliaComputing/daqp.git", "87f204b8bd208a901485596ec803110f3cbad515")
+    GitSource("https://github.com/JuliaComputing/daqp.git", "f1abcface1e4cda17674be60fd2d001560e18adf")
 ]
 
 # Bash recipe for building across all platforms
