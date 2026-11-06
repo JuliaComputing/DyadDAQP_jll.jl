@@ -1,160 +1,160 @@
 [[DyadDAQP]]
 arch = "aarch64"
-git-tree-sha1 = "0b41059e34a66be8b7000bddc10c468ce64f2d5d"
+git-tree-sha1 = "d5e3237f1ade50c44d3a5fd61fbaeb36a8b51acc"
 os = "macos"
 
     [[DyadDAQP.download]]
-    sha256 = "343cf8b975fefeb2b0d7807a8604f667507e908762e848c7c8150c29f4e0cab2"
-    url = "https://github.com/JuliaComputing/DyadDAQP_jll.jl/releases/download/DyadDAQP-v0.11.0+0/DyadDAQP.v0.11.0.aarch64-apple-darwin.tar.gz"
+    sha256 = "b9e2d6b63d11895225828deec92eb2b8612c4af2c6d3a79b30aaff82593ddef9"
+    url = "https://github.com/JuliaComputing/DyadDAQP_jll.jl/releases/download/DyadDAQP-v0.11.1+0/DyadDAQP.v0.11.1.aarch64-apple-darwin.tar.gz"
 [[DyadDAQP]]
 arch = "aarch64"
-git-tree-sha1 = "bfbf59bd225c53332b61df99d60756f06d6d8cc0"
+git-tree-sha1 = "e0d776dc56ef59723c2be6ceda131149f5e17e54"
 libc = "glibc"
 os = "linux"
 
     [[DyadDAQP.download]]
-    sha256 = "c4c6513f88ac7cfc13620f7146229ceb8805939128eda9a8ddf7cd6ad6ddcf5f"
-    url = "https://github.com/JuliaComputing/DyadDAQP_jll.jl/releases/download/DyadDAQP-v0.11.0+0/DyadDAQP.v0.11.0.aarch64-linux-gnu.tar.gz"
+    sha256 = "641f6952eb7e26e5dd1a30decd4af0349c9f374522269fe67b1dfa65e9f8775e"
+    url = "https://github.com/JuliaComputing/DyadDAQP_jll.jl/releases/download/DyadDAQP-v0.11.1+0/DyadDAQP.v0.11.1.aarch64-linux-gnu.tar.gz"
 [[DyadDAQP]]
 arch = "aarch64"
-git-tree-sha1 = "0440a5e8369627b68fa7783b9048c2ec3fae97c1"
+git-tree-sha1 = "fc690c23c4bb895230ec8b31d21a371b1e0ed06f"
 libc = "musl"
 os = "linux"
 
     [[DyadDAQP.download]]
-    sha256 = "2e6ef4599bbdd7462c1eb91b1cc2fc7250a5cb35441010e89b85cf7f6cd3f433"
-    url = "https://github.com/JuliaComputing/DyadDAQP_jll.jl/releases/download/DyadDAQP-v0.11.0+0/DyadDAQP.v0.11.0.aarch64-linux-musl.tar.gz"
+    sha256 = "f847542da4d6601ee7475b6853558712342806aac98eabec4fdfed0788c52f86"
+    url = "https://github.com/JuliaComputing/DyadDAQP_jll.jl/releases/download/DyadDAQP-v0.11.1+0/DyadDAQP.v0.11.1.aarch64-linux-musl.tar.gz"
 [[DyadDAQP]]
 arch = "aarch64"
-git-tree-sha1 = "f1907a8212130aebe38ead8887e895c244aefd84"
+git-tree-sha1 = "e0d6a767e6657151a66f1e1b8b7fb161d15618d2"
 os = "freebsd"
 
     [[DyadDAQP.download]]
-    sha256 = "01d5ea30c6d297f0394d2db545e22c79f8d02b5b10ad8d5ad6ed1c0ef33c69c4"
-    url = "https://github.com/JuliaComputing/DyadDAQP_jll.jl/releases/download/DyadDAQP-v0.11.0+0/DyadDAQP.v0.11.0.aarch64-unknown-freebsd.tar.gz"
+    sha256 = "58d84ce5d687b0065e794d35dabc16130d11acb734e51030a4bd1700b338a0fc"
+    url = "https://github.com/JuliaComputing/DyadDAQP_jll.jl/releases/download/DyadDAQP-v0.11.1+0/DyadDAQP.v0.11.1.aarch64-unknown-freebsd.tar.gz"
 [[DyadDAQP]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "96c7130ccc2cdb097f0608af65619122d6987247"
+git-tree-sha1 = "088246d2ba7f25791514fec0d83a620c8433e869"
 libc = "glibc"
 os = "linux"
 
     [[DyadDAQP.download]]
-    sha256 = "42209d235eddf9e6e79657c5a02128dfe4b4c755da4ef78da5ddd23028756452"
-    url = "https://github.com/JuliaComputing/DyadDAQP_jll.jl/releases/download/DyadDAQP-v0.11.0+0/DyadDAQP.v0.11.0.armv6l-linux-gnueabihf.tar.gz"
+    sha256 = "1c5bac2f78da8525d69a230e539e6a3b7037f752f260ecb443cc8415148c7963"
+    url = "https://github.com/JuliaComputing/DyadDAQP_jll.jl/releases/download/DyadDAQP-v0.11.1+0/DyadDAQP.v0.11.1.armv6l-linux-gnueabihf.tar.gz"
 [[DyadDAQP]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "84fb0f441ca810454930e38a40d0705d9797a2ea"
+git-tree-sha1 = "11b37aee63b8f29bd0592df63bdabc9440cd19c4"
 libc = "musl"
 os = "linux"
 
     [[DyadDAQP.download]]
-    sha256 = "8debcf5fb3dda85ced2a3308f267dc9add5b971559e724ae8375b49222e6c554"
-    url = "https://github.com/JuliaComputing/DyadDAQP_jll.jl/releases/download/DyadDAQP-v0.11.0+0/DyadDAQP.v0.11.0.armv6l-linux-musleabihf.tar.gz"
+    sha256 = "0bd8ce98b8ca5d6e08552bc5eed3cbaf6e0cadc8be8563742ba13d1de476f6d0"
+    url = "https://github.com/JuliaComputing/DyadDAQP_jll.jl/releases/download/DyadDAQP-v0.11.1+0/DyadDAQP.v0.11.1.armv6l-linux-musleabihf.tar.gz"
 [[DyadDAQP]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "405424dc09153e9834e824ba73147f3db8d64076"
+git-tree-sha1 = "bc6712ac98cf6e136ebeecb3d63a48e357a9449e"
 libc = "glibc"
 os = "linux"
 
     [[DyadDAQP.download]]
-    sha256 = "69bfa8542a78a2e1d767f7e17b8ec5e72087fe208961957384ab28c3f4e62b97"
-    url = "https://github.com/JuliaComputing/DyadDAQP_jll.jl/releases/download/DyadDAQP-v0.11.0+0/DyadDAQP.v0.11.0.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "3fc23e28311cb4eb1dad1c5c1310c14a0da0e73266c54882eeaa1e8753f4982e"
+    url = "https://github.com/JuliaComputing/DyadDAQP_jll.jl/releases/download/DyadDAQP-v0.11.1+0/DyadDAQP.v0.11.1.armv7l-linux-gnueabihf.tar.gz"
 [[DyadDAQP]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "a63ffb34973ba0d223d158b8e1642d62a976a998"
+git-tree-sha1 = "65149c589bae21c6bdc2a9b770248a0994704e08"
 libc = "musl"
 os = "linux"
 
     [[DyadDAQP.download]]
-    sha256 = "0149508bcbc7eb4ac56259e237419787dc29fb1ccd7b1679b33a1728da5b3625"
-    url = "https://github.com/JuliaComputing/DyadDAQP_jll.jl/releases/download/DyadDAQP-v0.11.0+0/DyadDAQP.v0.11.0.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "5183ed0262bad10d496e811fe81a77d0c95b80cc460106f3cc02a959ed0d11be"
+    url = "https://github.com/JuliaComputing/DyadDAQP_jll.jl/releases/download/DyadDAQP-v0.11.1+0/DyadDAQP.v0.11.1.armv7l-linux-musleabihf.tar.gz"
 [[DyadDAQP]]
 arch = "i686"
-git-tree-sha1 = "058bc36d85127cf660a0329214b61748781bf12b"
+git-tree-sha1 = "9c1c6fbfbf1bfafbe5266aa6bc1a2bde3010b8ee"
 libc = "glibc"
 os = "linux"
 
     [[DyadDAQP.download]]
-    sha256 = "3561c9698093171c79577e9e8ed2dbf669e45e4a1c2f1aa33b2a8004e05f606e"
-    url = "https://github.com/JuliaComputing/DyadDAQP_jll.jl/releases/download/DyadDAQP-v0.11.0+0/DyadDAQP.v0.11.0.i686-linux-gnu.tar.gz"
+    sha256 = "e8457391a45fb0f44269ddc8db581f4f41d3cca583de5b19a2a824c02985a010"
+    url = "https://github.com/JuliaComputing/DyadDAQP_jll.jl/releases/download/DyadDAQP-v0.11.1+0/DyadDAQP.v0.11.1.i686-linux-gnu.tar.gz"
 [[DyadDAQP]]
 arch = "i686"
-git-tree-sha1 = "51a513856e64a56922a3b849df8c130915e58df4"
+git-tree-sha1 = "45c67f3f8353c863f04afac4436f61b3465d2ee8"
 libc = "musl"
 os = "linux"
 
     [[DyadDAQP.download]]
-    sha256 = "b66d6f4a8e93742255b1985494bba9093ade183682c6c47db30c461d20c673f7"
-    url = "https://github.com/JuliaComputing/DyadDAQP_jll.jl/releases/download/DyadDAQP-v0.11.0+0/DyadDAQP.v0.11.0.i686-linux-musl.tar.gz"
+    sha256 = "44bf2b385efd137c8aeee504234df42b792c3c3f9493378d8c54ea111188f55c"
+    url = "https://github.com/JuliaComputing/DyadDAQP_jll.jl/releases/download/DyadDAQP-v0.11.1+0/DyadDAQP.v0.11.1.i686-linux-musl.tar.gz"
 [[DyadDAQP]]
 arch = "i686"
-git-tree-sha1 = "365efd6707f9ae45d825b1320d6f7d2affd97ae2"
+git-tree-sha1 = "45a07c093640d7ee72eed1f7272102b45289c8f2"
 os = "windows"
 
     [[DyadDAQP.download]]
-    sha256 = "feb4380db0b0a37aa0d580a30b43f51ea810a45bcc130ff40c83b433313cd1cc"
-    url = "https://github.com/JuliaComputing/DyadDAQP_jll.jl/releases/download/DyadDAQP-v0.11.0+0/DyadDAQP.v0.11.0.i686-w64-mingw32.tar.gz"
+    sha256 = "4efe32af7341590fa831509f6cd558f895f0d074a591d8df2811ba9333a7f0ce"
+    url = "https://github.com/JuliaComputing/DyadDAQP_jll.jl/releases/download/DyadDAQP-v0.11.1+0/DyadDAQP.v0.11.1.i686-w64-mingw32.tar.gz"
 [[DyadDAQP]]
 arch = "powerpc64le"
-git-tree-sha1 = "bf85edae51a7e4b9e5393ea51621147e8a2d025f"
+git-tree-sha1 = "aa623bf7fd25afd65a39239dda1974bf909eccfe"
 libc = "glibc"
 os = "linux"
 
     [[DyadDAQP.download]]
-    sha256 = "9307016d9df4b1b7738366f39a2607bc02146aeaec9abc0a89b1d3bcaf8ef4aa"
-    url = "https://github.com/JuliaComputing/DyadDAQP_jll.jl/releases/download/DyadDAQP-v0.11.0+0/DyadDAQP.v0.11.0.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "94a25686c85b3c63a2c87d782b8e8d8176acc9143f382f0606295f47fe275c07"
+    url = "https://github.com/JuliaComputing/DyadDAQP_jll.jl/releases/download/DyadDAQP-v0.11.1+0/DyadDAQP.v0.11.1.powerpc64le-linux-gnu.tar.gz"
 [[DyadDAQP]]
 arch = "riscv64"
-git-tree-sha1 = "4337220189451c534b97663b95fa017981610ab2"
+git-tree-sha1 = "4fd8e76bcd6bd6f3486b4d0a4a9a74c8073543c9"
 libc = "glibc"
 os = "linux"
 
     [[DyadDAQP.download]]
-    sha256 = "58908348ae5b8c2a4312fa2d06c8b47b5be42fe821dabee1f5afcf72e7d4e29a"
-    url = "https://github.com/JuliaComputing/DyadDAQP_jll.jl/releases/download/DyadDAQP-v0.11.0+0/DyadDAQP.v0.11.0.riscv64-linux-gnu.tar.gz"
+    sha256 = "6d82377da2664e39a53b3f34123b2aa1fbd2ea9badebd75cb4f1d6d2f093a975"
+    url = "https://github.com/JuliaComputing/DyadDAQP_jll.jl/releases/download/DyadDAQP-v0.11.1+0/DyadDAQP.v0.11.1.riscv64-linux-gnu.tar.gz"
 [[DyadDAQP]]
 arch = "x86_64"
-git-tree-sha1 = "3b0b50b222df3fef78d8f7cc160bd8edce560997"
+git-tree-sha1 = "6d2f4de412f59fa692ffb34e65c3a9b45ef382f7"
 os = "macos"
 
     [[DyadDAQP.download]]
-    sha256 = "10fe13ec8aaac2b1a322340b3e06346a924cf6bb19b23a9c5697b445c6ccb068"
-    url = "https://github.com/JuliaComputing/DyadDAQP_jll.jl/releases/download/DyadDAQP-v0.11.0+0/DyadDAQP.v0.11.0.x86_64-apple-darwin.tar.gz"
+    sha256 = "faea71a5d3e56400cb6324b5b71769a8b43b1c6edbc5c2387495692fc02f936c"
+    url = "https://github.com/JuliaComputing/DyadDAQP_jll.jl/releases/download/DyadDAQP-v0.11.1+0/DyadDAQP.v0.11.1.x86_64-apple-darwin.tar.gz"
 [[DyadDAQP]]
 arch = "x86_64"
-git-tree-sha1 = "7757b28b03fd2f417d969b40a803eb37e3079578"
+git-tree-sha1 = "325443c6744fd2e147297de328a3fb4d0d16cc1f"
 libc = "glibc"
 os = "linux"
 
     [[DyadDAQP.download]]
-    sha256 = "04003807a503625338cc3969db0198a122049cbf9df585c23bc3acd55fdd7bc3"
-    url = "https://github.com/JuliaComputing/DyadDAQP_jll.jl/releases/download/DyadDAQP-v0.11.0+0/DyadDAQP.v0.11.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "25c31a42c06d5c589c4ec66559bd333f892081bbe37f9af021725c78238cf902"
+    url = "https://github.com/JuliaComputing/DyadDAQP_jll.jl/releases/download/DyadDAQP-v0.11.1+0/DyadDAQP.v0.11.1.x86_64-linux-gnu.tar.gz"
 [[DyadDAQP]]
 arch = "x86_64"
-git-tree-sha1 = "4f2e160d7c9bb1efa0b1a8812fbed9410a46b73c"
+git-tree-sha1 = "fb7446b8741306d1b68f53b0fd1116a9688b46bd"
 libc = "musl"
 os = "linux"
 
     [[DyadDAQP.download]]
-    sha256 = "f39684111f0406c33c5264ff3d3b56d850ecd444b0f87867bf1e757d63fdc9a3"
-    url = "https://github.com/JuliaComputing/DyadDAQP_jll.jl/releases/download/DyadDAQP-v0.11.0+0/DyadDAQP.v0.11.0.x86_64-linux-musl.tar.gz"
+    sha256 = "0f63ba4e23d561b64c510b5b60d63cd754ab4b5b5478e00f4799cbc8adfd01bb"
+    url = "https://github.com/JuliaComputing/DyadDAQP_jll.jl/releases/download/DyadDAQP-v0.11.1+0/DyadDAQP.v0.11.1.x86_64-linux-musl.tar.gz"
 [[DyadDAQP]]
 arch = "x86_64"
-git-tree-sha1 = "5aa74f810239bd53d503a1c38b26773b0d023674"
+git-tree-sha1 = "ebdb2645fb1a87b695f7a97bf9cc1ebb69b0feab"
 os = "freebsd"
 
     [[DyadDAQP.download]]
-    sha256 = "9e25a99a64a0004bafe137aed70760a620dba82504755616f2ffa525f6a3792e"
-    url = "https://github.com/JuliaComputing/DyadDAQP_jll.jl/releases/download/DyadDAQP-v0.11.0+0/DyadDAQP.v0.11.0.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "8c3047384363f5d0590f15f0ac987ceb8dabc68283137cafcce8e74886faaf5f"
+    url = "https://github.com/JuliaComputing/DyadDAQP_jll.jl/releases/download/DyadDAQP-v0.11.1+0/DyadDAQP.v0.11.1.x86_64-unknown-freebsd.tar.gz"
 [[DyadDAQP]]
 arch = "x86_64"
-git-tree-sha1 = "00a203c988ed2460f2e929c7cc2b5ebd66797394"
+git-tree-sha1 = "cf9329f8aa2ec38d7a6cbaf37d906739741f1fda"
 os = "windows"
 
     [[DyadDAQP.download]]
-    sha256 = "d304e3e3cfdf36636d740c81715369b866d8a70bf7d46dcb848b20da0f86310a"
-    url = "https://github.com/JuliaComputing/DyadDAQP_jll.jl/releases/download/DyadDAQP-v0.11.0+0/DyadDAQP.v0.11.0.x86_64-w64-mingw32.tar.gz"
+    sha256 = "109fdc715f6c143c119c2aef1cd48e80039d1e4d0dff4205f5f832ca28ac1987"
+    url = "https://github.com/JuliaComputing/DyadDAQP_jll.jl/releases/download/DyadDAQP-v0.11.1+0/DyadDAQP.v0.11.1.x86_64-w64-mingw32.tar.gz"
