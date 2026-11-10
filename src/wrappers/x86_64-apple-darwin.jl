@@ -2,12 +2,12 @@
 export libdaqp
 
 JLLWrappers.@generate_wrapper_header("DyadDAQP")
-JLLWrappers.@declare_library_product(libdaqp, "@rpath/libdaqp.0.11.dylib")
+JLLWrappers.@declare_library_product(libdaqp, "@rpath/libdaqp.0.12.dylib")
 function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
         libdaqp,
-        "lib/libdaqp.0.11.0.dylib",
+        "lib/libdaqp.0.12.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
