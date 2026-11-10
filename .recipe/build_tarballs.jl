@@ -1,23 +1,23 @@
 # Note that this script can accept some limited command-line arguments, run
 # `julia build_tarballs.jl --help` to see a usage message.
 #
-# DAQP built from the branch dyad of JuliaComputing/daqp (DAQP master with the changes that are not
+# DAQP built from the branch main of JuliaComputing/DyadDAQP (DAQP master with the changes that are not
 # yet released), as the library of the Julia package DyadDAQP. Besides the library and the headers,
 # the C sources are installed into share/daqp/src, from which the code generation of DyadDAQP copies
 # them, so that generated code matches the library that rendered the workspace.
 using BinaryBuilder, Pkg
 
 name = "DyadDAQP"
-version = v"0.11.1"
+version = v"0.12.0"
 
 # Collection of sources required to complete build
 sources = [
-    GitSource("https://github.com/JuliaComputing/daqp.git", "86305bd236f55bd0089828ff4909bd3a685bd3c4")
+    GitSource("https://github.com/JuliaComputing/DyadDAQP.git", "350e17862886bc90f3fdd91bd2fea37056e498c3")
 ]
 
 # Bash recipe for building across all platforms
 script = raw"""
-cd $WORKSPACE/srcdir/daqp
+cd $WORKSPACE/srcdir/DyadDAQP
 mkdir build
 cd build
 cmake -DCMAKE_INSTALL_PREFIX=${prefix} \
@@ -41,7 +41,11 @@ products = [
 ]
 
 # Dependencies that must be installed before this package can be built
+# On Windows the parallel branch and bound links the MinGW runtime (libwinpthread, and libgcc_s on i686),
+# which CompilerSupportLibraries_jll provides
 dependencies = Dependency[
+    Dependency(PackageSpec(name="CompilerSupportLibraries_jll", uuid="e66e0078-7015-5450-92f7-15fbd957f2ae");
+               platforms=filter(Sys.iswindows, platforms)),
 ]
 
 # Build the tarballs, and possibly a `build.jl` as well.
