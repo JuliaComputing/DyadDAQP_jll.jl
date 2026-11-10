@@ -23,7 +23,7 @@ cd build
 cmake -DCMAKE_INSTALL_PREFIX=${prefix} \
     -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TARGET_TOOLCHAIN} \
     -DCMAKE_BUILD_TYPE=Release \
-    -DCMAKE_C_FLAGS="-std=gnu99" \
+    -DCMAKE_C_FLAGS="-std=gnu11" \
     ..
 make -j${nproc}
 make install
@@ -45,4 +45,8 @@ dependencies = Dependency[
 ]
 
 # Build the tarballs, and possibly a `build.jl` as well.
-build_tarballs(ARGS, name, version, sources, script, platforms, products, dependencies; julia_compat="1.6")
+# The parallel branch and bound (CMake option PARALLEL, daqp_solve_parallel) uses C11 atomics and threads:
+# the default GCC of BinaryBuilder (4.8) has no stdatomic.h, with which the library is built without it.
+# GCC 10 is the version with which the build was verified on armv6l, armv7l and i686.
+build_tarballs(ARGS, name, version, sources, script, platforms, products, dependencies; julia_compat="1.6",
+               preferred_gcc_version=v"10")
